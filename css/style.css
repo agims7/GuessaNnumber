@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Lato|Merriweather);
+
+* {
+	outline: none;
+	box-sizing: border-box;
+	text-align: center;
+	color: #101628;
+}
+
+body {
+	background-image: -ms-linear-gradient(left, #EBEBEB 20%, #6A7B8B 80%);
+	background-image: -moz-linear-gradient(left, #EBEBEB 20%, #6A7B8B 80%);
+	background-image: -o-linear-gradient(left, #EBEBEB 20%, #6A7B8B 80%);
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(20, #EBEBEB), color-stop(80, #6A7B8B));
+	background-image: -webkit-linear-gradient(left, #EBEBEB 20%, #6A7B8B 80%);
+	background-image: linear-gradient(to right, #EBEBEB 20%, #6A7B8B 80%);
+}
+
+h2 {
+	margin-top: 7%;
+	font-size: 40px;	
+}
+
+input {
+	border-radius: 12px;
+	border: 2px solid #101628;
+	padding: 5px;
+	font-size: 17px;
+	background-color: white;
+}
+
+.submit {
+	background-color: #272f44;
+	color: white;
+	cursor: pointer;
+}
+
+.submit:hover {
+	background-color: white;
+	color: #272f44;
+}
+
+.message {
+	font-size: 25px;
+	font-weight: bold;
+	color: #272f44;
+}
